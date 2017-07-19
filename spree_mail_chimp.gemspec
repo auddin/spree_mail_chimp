@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  s.add_dependency 'spree_version' , '>= 3.1.0', '< 4.0'
+  spree_version = '>= 3.1.0', '< 4.0'
+  s.add_dependency 'spree_core', spree_version
   s.add_dependency 'mailchimp-api', '~> 2.0.6'
 end
